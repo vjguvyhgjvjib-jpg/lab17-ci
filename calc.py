@@ -12,7 +12,5 @@ def divide(a, b):
         raise ValueError("Division by zero")
     return a / b
 def square(a):
-    return a * a
-def square(a):
     """Возвращает квадрат числа."""
     return a * a
