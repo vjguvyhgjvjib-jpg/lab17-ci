@@ -1,5 +1,5 @@
 import pytest
-from calc import add, subtract, multiply, divide
+from calc import add, subtract, multiply, divide, power
 
 def test_add():
     assert add(2, 3) == 5
@@ -17,6 +17,6 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(1, 0)
-def test_square():
-    assert square(3) == 9
-    assert square(-2) == 4
+
+def test_power():
+    assert power(2, 3) == 8
