@@ -12,5 +12,5 @@ def divide(a, b):
         raise ValueError("Division by zero")
     return a / b
 
-def power(a, b):
-    return a ** b
+def square(a):
+    return a * a
